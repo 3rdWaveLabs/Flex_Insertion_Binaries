@@ -13,14 +13,14 @@ Extract the zip to a location of your choosing. Upon updates, the .hex file will
 
 ## Uploading the binary HEX file
 
-Included within this repository is Xloader which is a third party program that is is used to upload binary HEX files to the controller. XLoader can also be downloaded from its source [HERE](http://xloader.russemotto.com/)
+Included within this repository is Xloader which is a third party program that is is used to upload binary HEX files to the controller. XLoader can also be downloaded from its source [HERE](https://github.com/binaryupdates/xLoader)
 
 Below are the steps to using Xloader:
 
 ## Using XLoader
 Xloader has 4 main input fields: Hex file, Device, COM port, and Baud rate
 
-![](http://www.hobbytronics.co.uk/image/data/tutorial/arduino_xloader/xloader.jpg)
+![](images/xloader.png)
 
 Plug in the controller to the computer using the usb port on the controller.
 
@@ -31,3 +31,5 @@ Open the *XLoader.exe* within the XLoader folder
 3. Set the *COM port* to the appropriate device. Should be listed in the drop down menu as COM followed by a number. 
 4. Set the *Baud Rate* field to: **115200**
 5. Click upload
+
+![](images/flex_insertion_box.jpg)
